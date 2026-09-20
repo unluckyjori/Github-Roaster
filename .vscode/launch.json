@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GithubRoasterApplication",
+            "request": "launch",
+            "mainClass": "com.unluckyjori.githubroaster.GithubRoasterApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GithubRoasterApplication<github-roaster>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.unluckyjori.githubroaster.GithubRoasterApplication",
+            "projectName": "github-roaster",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
