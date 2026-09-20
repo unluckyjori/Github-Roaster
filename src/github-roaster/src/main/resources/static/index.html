@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Roaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <p class="eyebrow">UNLUCKY STUDIOS</p>
+        <h1>GitHub Profile Roaster</h1>
+        <p class="description">
+            Enter your GitHub username and let AI judge the repositories.
+        </p>
+
+        <form id="roast-form">
+            <label for="username">GitHub Username</label>
+            <div class="input-row">
+                <input id="username" name="username" type="text" placeholder="octocat" autocomplete="off" required>
+                <button type="submit">Roast</button>
+            </div>
+        </form>
+
+        <section id="result" aria-live="polite">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
