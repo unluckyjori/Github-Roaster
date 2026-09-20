@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.unluckyjori</groupId>
+	<groupId>githubroaster</groupId>
 	<artifactId>github-roaster</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>GitHub Roaster</name>
